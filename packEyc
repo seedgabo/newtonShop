@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ./dist
+
+
+rsync -avz --delete . "gabriel@newton.eycproveedores.com:htdocs/eyc/tienda"
+echo "syncronized"
+cd ../../../

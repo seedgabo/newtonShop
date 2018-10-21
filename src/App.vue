@@ -107,7 +107,7 @@ export default {
 	opacity: 0;
 }
 .v-content {
-	background: url(assets/background.jpg);
+	background: url(static/background.jpg);
 	background-size: contain;
 	background-attachment: fixed;
 }

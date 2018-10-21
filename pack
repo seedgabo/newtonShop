@@ -2,6 +2,6 @@
 cd ./dist
 
 
-rsync -avz --delete . "gabriel@newto2.eycproveedores.com:htdocs/utilesya/tienda"
+rsync -avz --delete . "gabriel@newton2.eycproveedores.com:html/utilesya/tienda"
 echo "syncronized"
 cd ../../../
