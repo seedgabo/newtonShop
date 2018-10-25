@@ -1,15 +1,13 @@
 <template>
   <v-layout row align-content-space-around="" wrap>
     <v-flex xs12>
-      <v-parallax src="https://st4.depositphotos.com/12792704/20153/i/1600/depositphotos_201536076-stock-photo-school-supplies-blackboard-background-copy.jpg">
-        <v-layout align-center column justify-center>
-          <h1 class="black--text display-2 font-weight-thin mb-3">Encuentra tu colegio</h1>
-          <h3 class="black--text subheading">¡Empieza el año con toda!</h3>
-          <span class="pa-3">
-            <v-text-field solo append-icon="school" placeholder="Colegio"></v-text-field>
-          </span>
-        </v-layout>
-      </v-parallax>
+      <v-layout align-center column justify-center>
+        <h1 class="black--text display-2 font-weight-thin mb-3">Encuentra tu colegio</h1>
+        <h3 class="black--text subheading">¡Empieza el año con toda!</h3>
+        <span class="pa-3">
+          <v-text-field solo append-icon="school" placeholder="Colegio"></v-text-field>
+        </span>
+      </v-layout>
     </v-flex>
 
     <v-flex xs12 sm6 md4 lg4 v-for="cat in categories.data" :key="cat.id">
